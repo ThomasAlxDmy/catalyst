@@ -1,0 +1,14 @@
+commands:
+  - name: clear
+  - name: go
+    arguments:
+      - install
+      - $1
+  - name: go
+    arguments:
+      - fmt
+      - $1
+  - name: go
+    arguments:
+      - test
+      - ./...
