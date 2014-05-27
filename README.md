@@ -21,5 +21,5 @@ Because different projects require different needs, you can use a custom configu
 
 ## Use
 
-To use it, just go at the base folder of a go project and run `catalyst`. At first it will tell you files that are being monitored and will wait for you to perform an action.
+To use it, just go at the base folder of a go project and run `catalyst`. At first it will tell you which files that are being monitored and will wait for you to perform an action.
 
