@@ -11,4 +11,5 @@ commands:
   - name: go
     arguments:
       - test
+      - -race
       - ./...
