@@ -5,6 +5,7 @@ import (
 	"log"
 	"path"
 	"reflect"
+	"strings"
 	"testing"
 )
 
@@ -29,7 +30,7 @@ func TestGetWatchingFolder(t *testing.T) {
 
 func TestGetPackageFolder(t *testing.T) {
 	packagePath := getPackageFolder()
-	if packagePath != "github.com/ThomasAlxDmy/catalyst" {
+	if !strings.HasSuffix(packagePath,"github.com/ThomasAlxDmy/catalyst") {
 		t.Fatal("Error the package path has an unexpected value: ", packagePath)
 	}
 }
